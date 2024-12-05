@@ -1,0 +1,20 @@
+---
+title: "Weather Graph"
+author: "Chip Haskins"
+date: "Today"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(Haskins445Package)
+library(ggplot2)
+```
+
+```{r}
+ggplot(Flagstaff_Weather, aes(x = DATE)) +
+    geom_ribbon(aes(ymin = TMIN, ymax = TMAX), color = "red")
+
+ggplot(Flagstaff_Weather, aes(x = DATE)) +
+    geom_line(aes(y = PRCP), color = "blue") +
+    geom_line(aes(y = SNOW), color = "lightblue")
+```
