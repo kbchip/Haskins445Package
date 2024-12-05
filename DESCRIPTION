@@ -1,12 +1,11 @@
 Package: Haskins445Package
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package for STA 445
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Chip Haskins
+Maintainer: Chip Haskins <chaskins@nau.edu>
+Description: Not much to say here.
+License: GNU GPL
 Encoding: UTF-8
 LazyData: true
 Depends: 
